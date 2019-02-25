@@ -1,0 +1,71 @@
+
+
+
+/*====================
+ * Base structure
+ =====================*/
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+
+
+
+/* Padding for spacing */
+.inner-cover {
+  padding: 20px;
+}
+
+/*
+.btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: red;
+  outline-color: black; 
+  border: 5px solid rgb(224, 224, 96); 
+}
+*/
+
+
+.alpha-buttons {
+height: 35px;
+width: 35px; 
+margin: 5px 0 5px 0;
+
+}
+
+#guessed-letters {
+  font-size: 40px;
+  position: center;
+  letter-spacing: 10px;
+  top: 10px;
+  bottom: 10px;
+}
+
+#play-button {
+ margin-top: 25px; 
+ font-weight: bold;
+  
+}
+#winLose-message {
+  margin-bottom: 35px; 
+
+}
+#lives {
+  margin: 5px;
+}
+#intro-game {
+  margin: 5px;
+}
+
+button:disabled {
+  background-color: rgb(240, 0, 0);
+  color: #fff;
+}
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FUTURAMA GUESSING GAME </title>
+
+    <!--Linking Jquery-->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <!--Link Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--Materilized CDN-->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+</head>
+
+<body>
+    <div id="intro-game">
+    <h3>Can you guess the characters name?</h3>
+    </div>    
+    <!--IMAGES-->
+    <div class = "char-images" >
+        <img src="img/AmyWong.png" id="amy">
+        <img src="img/bender.png" id="bender">
+        <img src="img/Farnsworth.png" id="farnsworth">
+        <img src="img/hermes.png" id="hermes">
+        <img src="img/Philip_Fry.png" id="fry">
+        <img src="img/Zoidberg.png" id="Zoidberg">
+       
+    </div>
+
+    <!--GAME SECTION-->    
+    <div id="lives"></div> 
+    <div id="winLose-message"></div>
+
+    <div id="alphabet">
+            <button id="A" class="alpha-buttons btn deep-orange accent 4">A</button>
+            <button id="B" class="alpha-buttons btn deep-orange accent 4">B</button>
+            <button id="C" class="alpha-buttons btn deep-orange accent 4">C</button>
+            <button id="D" class="alpha-buttons btn deep-orange accent 4">D</button>
+            <button id="E" class="alpha-buttons btn deep-orange accent 4">E</button>
+            <button id="F" class="alpha-buttons btn deep-orange accent 4">F</button>
+            <button id="G" class="alpha-buttons btn deep-orange accent 4">G</button>
+            <button id="H" class="alpha-buttons btn deep-orange accent 4">H</button>
+            <button id="I" class="alpha-buttons btn deep-orange accent 4">I</button>
+            <br>
+            <button id="J" class="alpha-buttons btn deep-orange accent 4">J</button>
+            <button id="K" class="alpha-buttons btn deep-orange accent 4">K</button>
+            <button id="L" class="alpha-buttons btn deep-orange accent 4">L</button>
+            <button id="M" class="alpha-buttons btn deep-orange accent 4">M</button>
+            <button id="N" class="alpha-buttons btn deep-orange accent 4">N</button>
+            <button id="O" class="alpha-buttons btn deep-orange accent 4">O</button>
+            <button id="P" class="alpha-buttons btn deep-orange accent 4">P</button>
+            <button id="Q" class="alpha-buttons btn deep-orange accent 4">Q</button>
+            <button id="R" class="alpha-buttons btn deep-orange accent 4">R</button>
+            <br>
+            <button id="S" class="alpha-buttons btn deep-orange accent 4">S</button>
+            <button id="T" class="alpha-buttons btn deep-orange accent 4">T</button>
+            <button id="U" class="alpha-buttons btn deep-orange accent 4">U</button>
+            <button id="V" class="alpha-buttons btn deep-orange accent 4">V</button>
+            <button id="W" class="alpha-buttons btn deep-orange accent 4">W</button>
+            <button id="X" class="alpha-buttons btn deep-orange accent 4">X</button>
+            <button id="Y" class="alpha-buttons btn deep-orange accent 4">Y</button>
+            <button id="Z" class="alpha-buttons btn deep-orange accent 4">Z</button>
+    </div>
+
+    <div id="guessed-letters"></div>
+
+ 
+    <button class="btn" id="play-button">Play Again</button>
+   
+    
+  
+
+    <!-- Linking my JS
+    ================================================== -->
+    <script src="game.js"></script>
+    
+</body>
+</html>

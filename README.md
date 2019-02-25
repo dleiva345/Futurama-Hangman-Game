@@ -1,1 +1,7 @@
-# Futurama-Hangman-Game
+# Futurama Hangman Game
+
+ 
+**# Built using...**
+   - Jquery
+   - Materialize.css
+
